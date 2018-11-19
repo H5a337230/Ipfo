@@ -326,7 +326,7 @@ if __name__=='__main__':
 		'''+Style.RESET_ALL)
 	parser = optparse.OptionParser( version = Tversion )
 	group = OptionGroup(parser,'Main Options')
-	group.add_option('--sglip', action='store', dest='sglip' , help='Multiple Ip Address.EXMP: 1.1.1.2    This will gather info of specified ip')
+	group.add_option('--sglip', action='store', dest='sglip' , help='Single Ip Address.EXMP: 1.1.1.2    This will gather info of specified ip')
 	group.add_option('--mulip', action='store', dest='mulip' , help='Multiple Ip Address.EXMP: 1.1.1.2,3.4.5.4    This will gather info of these 2 ip')
 	group.add_option('--ipr', action='store', dest='iprange' , help='Define Ip Range.EXMP: 192.168.1.8-12   This will gather info of 8, 9, 10, 11 and 12')
 	group.add_option('--cidr', action='store', dest='cidr' , help='You can use CIDR(Ip/Mask) to gather info of whole subnet.EXMP: 192.168.1.0/24')
