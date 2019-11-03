@@ -225,7 +225,6 @@ def maipgather(skw,api_token,SumorFull):
 	elif (SumorFull.lower()=='f'):
 		try:
 			responseDATA = requests.get('http://ipinfo.io/'+skw+'/json?token='+api_token)
-			print (responseDATA.text)       #### test
 			if (responseDATA.status_code == 401):
 				try:
 					print (Fore.RED+'[!] '+str(responseDATA.json()['error'])+Style.RESET_ALL)
