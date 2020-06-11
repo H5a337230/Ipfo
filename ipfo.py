@@ -313,7 +313,7 @@ if __name__=='__main__':
 				    |__|                  
                                   
 				        coded by Z3r0''')
-	print (Fore.RED + '''\t\t\t\t\tCodename - HASHASHIN''')
+	print (Fore.RED + '''\t\t\t\t\tCodename - ZEROARY''')
 	print (Fore.CYAN + '''
 		This is ' Ipfo '. With this you can gather information about IP(s) and ASN(s).
 		This script uses your ipinfo.io API key(s) to intract with it and gather
