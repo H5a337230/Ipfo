@@ -53,7 +53,14 @@ def gatherMUL(mulips):
 	iplist.remove('')
 	iplist = [item for item in iplist if ' ' not in item]
 	if (kc.ckfile()):
-		SumorFull = str(raw_input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
+		try:
+			SumorFull = str(raw_input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
+WARNING: THE FULL REPORT IS WORKING IF YOU ARE USING PAID API KEY VERSION.
+IF YOUR API KEY IS NOT PAID VERSION, DO NOT USE FULL REPORT.
+IT WILL NOT GONNA WORK AND WILL CRASH.
+Use 'f' for full report and 's' for summery. '''+Style.RESET_ALL))
+		except:
+			SumorFull = str(input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
 WARNING: THE FULL REPORT IS WORKING IF YOU ARE USING PAID API KEY VERSION.
 IF YOUR API KEY IS NOT PAID VERSION, DO NOT USE FULL REPORT.
 IT WILL NOT GONNA WORK AND WILL CRASH.
@@ -77,7 +84,14 @@ Use 'f' for full report and 's' for summery. '''+Style.RESET_ALL))
 def gatherC(cIdR):
 	netip = ipaddress.ip_network(cIdR.decode(sys.stdin.encoding or 'utf-8'))
 	if (kc.ckfile()):
-		SumorFull = str(raw_input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
+		try:
+			SumorFull = str(raw_input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
+WARNING: THE FULL REPORT IS WORKING IF YOU ARE USING PAID API KEY VERSION.
+IF YOUR API KEY IS NOT PAID VERSION, DO NOT USE FULL REPORT.
+IT WILL NOT GONNA WORK AND WILL CRASH.
+Use 'f' for full report and 's' for summery. '''+Style.RESET_ALL))
+		except:
+			SumorFull = str(input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
 WARNING: THE FULL REPORT IS WORKING IF YOU ARE USING PAID API KEY VERSION.
 IF YOUR API KEY IS NOT PAID VERSION, DO NOT USE FULL REPORT.
 IT WILL NOT GONNA WORK AND WILL CRASH.
@@ -101,7 +115,14 @@ Use 'f' for full report and 's' for summery. '''+Style.RESET_ALL))
 
 def gatherSIP(sigip):
 	if (kc.ckfile()):
-		SumorFull = str(raw_input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
+		try:
+			SumorFull = str(raw_input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
+WARNING: THE FULL REPORT IS WORKING IF YOU ARE USING PAID API KEY VERSION.
+IF YOUR API KEY IS NOT PAID VERSION, DO NOT USE FULL REPORT.
+IT WILL NOT GONNA WORK AND WILL CRASH.
+Use 'f' for full report and 's' for summery. '''+Style.RESET_ALL))
+		except:
+			SumorFull = str(input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
 WARNING: THE FULL REPORT IS WORKING IF YOU ARE USING PAID API KEY VERSION.
 IF YOUR API KEY IS NOT PAID VERSION, DO NOT USE FULL REPORT.
 IT WILL NOT GONNA WORK AND WILL CRASH.
@@ -121,7 +142,15 @@ Use 'f' for full report and 's' for summery. '''+Style.RESET_ALL))
 
 def gatherASN(Sasn):
 	if (kc.ckfile()):
-		SumorFull = str(raw_input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
+		try:
+			SumorFull = str(raw_input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
+WARNING: AS MENTIONED AT FIRST, GATHERING INFO USING ASN OPTIONS
+IS AVAILABLE ONLY IF YOU ARE USING PAID PLANS.
+IF NOT, PLEASE DO NOT USE ASN OPTIONS.
+IT WILL NOT GONNA WORK AND WILL CRASH.
+Use 'f' for full report and 's' for summery. '''+Style.RESET_ALL))
+		except:
+			SumorFull = str(input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
 WARNING: AS MENTIONED AT FIRST, GATHERING INFO USING ASN OPTIONS
 IS AVAILABLE ONLY IF YOU ARE USING PAID PLANS.
 IF NOT, PLEASE DO NOT USE ASN OPTIONS.
@@ -148,7 +177,15 @@ def gatherMULASN(asnlst):
 	asnlist.remove('')
 	asnlist = [item for item in asnlist if ' ' not in item]
 	if (kc.ckfile()):
-		SumorFull = str(raw_input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
+		try:
+			SumorFull = str(raw_input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
+WARNING: AS MENTIONED AT FIRST, GATHERING INFO USING ASN OPTIONS
+IS AVAILABLE ONLY IF YOU ARE USING PAID PLANS.
+IF NOT, PLEASE DO NOT USE ASN OPTIONS.
+IT WILL NOT GONNA WORK AND WILL CRASH.
+Use 'f' for full report and 's' for summery. '''+Style.RESET_ALL))
+		except:
+			SumorFull = str(input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
 WARNING: AS MENTIONED AT FIRST, GATHERING INFO USING ASN OPTIONS
 IS AVAILABLE ONLY IF YOU ARE USING PAID PLANS.
 IF NOT, PLEASE DO NOT USE ASN OPTIONS.
@@ -182,7 +219,14 @@ def gatherR(iprnag):
 	ranges = last_num - start_num + 1
 	###
 	if (kc.ckfile()):
-		SumorFull = str(raw_input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
+		try:
+			SumorFull = str(raw_input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
+WARNING: THE FULL REPORT IS WORKING IF YOU ARE USING PAID API KEY VERSION.
+IF YOUR API KEY IS NOT PAID VERSION, DO NOT USE FULL REPORT.
+IT WILL NOT GONNA WORK AND WILL CRASH.
+Use 'f' for full report and 's' for summery. '''+Style.RESET_ALL))
+		except:
+			SumorFull = str(input(Fore.YELLOW+'''\n[?!] Here you are going to choose that you want full report or just a short summery of that.
 WARNING: THE FULL REPORT IS WORKING IF YOU ARE USING PAID API KEY VERSION.
 IF YOUR API KEY IS NOT PAID VERSION, DO NOT USE FULL REPORT.
 IT WILL NOT GONNA WORK AND WILL CRASH.
@@ -225,6 +269,7 @@ def maipgather(skw,api_token,SumorFull):
 	elif (SumorFull.lower()=='f'):
 		try:
 			responseDATA = requests.get('http://ipinfo.io/'+skw+'/json?token='+api_token)
+			print (responseDATA.text)       #### test
 			if (responseDATA.status_code == 401):
 				try:
 					print (Fore.RED+'[!] '+str(responseDATA.json()['error'])+Style.RESET_ALL)
